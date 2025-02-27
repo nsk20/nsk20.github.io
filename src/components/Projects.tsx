@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: 'Customer Churn Prediction Analysis',
       description: 'A comprehensive analysis of customer churn using machine learning techniques. This project involves data preprocessing, visualization, and the development of a predictive model using PySpark and scikit-learn.',
-      image: "src/assets/cca.jpg",
+      image: "https://github.com/nsk20/nsk20.github.io/blob/main/src/assets/cca.jpg",
       technologies: ['PySpark', 'scikit-learn', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
       category: 'data-science',
       links: {

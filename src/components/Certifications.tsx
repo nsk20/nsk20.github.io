@@ -4,12 +4,12 @@ import { Award, Calendar, ExternalLink } from 'lucide-react';
 const Certifications = () => {
   const certifications = [
     {
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: 'December 2023',
-      description: 'Validates expertise in designing distributed systems on AWS.Validates expertise in designing distributed systems on AWS.',
-      credentialId: 'AWS-ASA-12345',
-      credentialURL: 'https://www.credly.com/badges/example'
+      title: 'Data Engineer Associate certificate',
+      issuer: 'DataCamp',
+      date: 'December 2024 - December 2026',
+      description: 'Certified as an Associate Data Engineer, demonstrating proficiency in data management and exploratory analysis through various exams and practical assessments.',
+      credentialId: 'DEA0011117016817',
+      credentialURL: 'https://www.datacamp.com/certificate/DEA0011117016817'
     },
     {
       title: 'Google Professional Cloud Developer',
