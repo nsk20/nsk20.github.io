@@ -35,8 +35,8 @@ const Projects = () => {
       technologies: ['React', 'Tailwind CSS', 'Vite'],
       category: 'frontend',
       links: {
-        github: 'https://github.com',
-        live: 'https://example.com'
+        github: 'https://github.com/nsk20/nsk20.github.io',
+        live: 'https://nsk20.github.io/'
       }
     }
   ];
