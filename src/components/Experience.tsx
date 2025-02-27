@@ -9,7 +9,7 @@ const Experience = () => {
       company: 'Accion Labs',
       position: 'Data Analyst',
       period: 'August 2021 – July 2022',
-      location: 'Hyderabad, Telangana,India',
+      location: 'Hyderabad, Telangana, India',
       description: [
         'Automated monthly reporting workflows using Python and Power Query, reducing processing time by 40% and increasing data accuracy by 30%.',
         'Led initiative to identify and analyze KPIs for a new advertising product launch, streamlining reporting processes by 20% and providing data-driven insights to stakeholders.',
@@ -23,7 +23,7 @@ const Experience = () => {
       company: 'Accion Labs',
       position: 'Data Engineer',
       period: 'May 2020 – July 2021',
-      location: 'Hyderabad, Telangana,India',
+      location: 'Hyderabad, Telangana, India',
       description: [
         'Restructured and maintained efficient ETL pipelines for processing large-scale data, achieving a reduction in manual intervention by 75%, thereby freeing up valuable resources for high-impact analytical tasks.',
         'Utilized AWS Redshift and S3 to build scalable data warehousing solutions, enabling real-time performance monitoring for 50+ financial KPIs.',
