@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: 'GlobalMart E-Commerce Analysis',
       description: 'Advanced analysis of 100K+ order dataset from Brazilian e-commerce platform.',
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: 'https://raw.githubusercontent.com/nsk20/nsk20.github.io/refs/heads/main/src/assets/da.jpg',
       technologies: ['BigQuery', 'SQL', 'Data Modeling', 'RFM Analysis'],
       category: 'data-analysis',
       links: {
