@@ -4,35 +4,33 @@ import { Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const [activeTab, setActiveTab] = useState(0);
 
+
   const experiences = [
     {
       company: 'Accion Labs',
-      position: 'Data Analyst',
-      period: 'August 2021 – July 2022',
+      position: 'Associate Software Engineer',
+      period: 'Janaury 2021 – Febaury 2022',
       location: 'Hyderabad, Telangana, India',
       description: [
-        'Automated monthly reporting workflows using Python and Power Query, reducing processing time by 40% and increasing data accuracy by 30%.',
-        'Led initiative to identify and analyze KPIs for a new advertising product launch, streamlining reporting processes by 20% and providing data-driven insights to stakeholders.',
-        'Conducted A/B testing on different advertising campaign strategies, analyzing metrics such as click-through rates and conversion rates to identify optimal approaches that resulted in a 15% improvement in revenue forecasting accuracy.',
-        'Partnered with product and engineering teams to implement a dynamic budgeting and forecasting system, improving the efficiency of financial planning by 30%.',
-        'Collaborated with Finance and Product teams to develop financial data models that streamlined the annual budgeting process by 20% and improved reporting efficiency, simplifying decision-making for senior stakeholders.'
+        'Developed and maintained reports and dashboards using Business Intelligence tools.',
+        'Coordinated with development teams to ensure that database design was optimized for application performance.',
+        'Validated features and metric calculations, flow, and performance of new tool before release.',
+        'Successfully found and fixed over 100 bugs in the reporting workflows. AndWorked with a team of engineers to improve reporting accuracy.'
       ],
-      technologies: ['SQL', 'Python', 'AWS Redshift', 'AWS QuickSight', 'Statistical Analysis','A/B Testing']
+      technologies: ['SQL', 'Python', 'Power BI', 'SQL Server', 'Excel', ]
     },
     {
-      company: 'Accion Labs',
+      company: 'Commonwealth Bank',
       position: 'Data Engineer',
-      period: 'May 2020 – July 2021',
-      location: 'Hyderabad, Telangana, India',
+      period: 'Janaury 2025',
+      location: 'Online',
       description: [
-        'Restructured and maintained efficient ETL pipelines for processing large-scale data, achieving a reduction in manual intervention by 75%, thereby freeing up valuable resources for high-impact analytical tasks.',
-        'Utilized AWS Redshift and S3 to build scalable data warehousing solutions, enabling real-time performance monitoring for 50+ financial KPIs.',
-        'Assisted in migrating legacy ETL pipelines to Apache Airflow, reducing runtime by 25%.',
-        'Wrote Python scripts to automate data validation checks, ensuring 99% accuracy in client reports.',
-        'Collaborated with senior engineers to optimize Snowflake queries, cutting cloud costs by 15%.',
-        'Enhanced the performance of SQL queries for data modeling and reporting, reducing execution time by 20% .'
+        'Completed a job simulation involving Data Management skills for Commonwealth Bank’s Data Science team.',
+        'Demonstrated proficiency in creating data engineering pipelines to aggregate and extract valuable insights from datasets, optimizing data-driven decision-making.',
+        'Acquired skills in anonymizing personal data within datasets, ensuring compliance with data privacy regulations.',
+        'Proposed effective data analysis approaches, particularly related to social media, and demonstrated the ability to design well-structured databases for efficient information management.'
       ],
-      technologies: ['SQL', 'Python', 'ETL', 'Apache Airflow', 'Dockers', 'AWS EC2', 'S3 Bucket', 'Terraform']
+      technologies: ['SQL', 'Excel', 'Python', 'Twitter API']
     }
   ];
 
