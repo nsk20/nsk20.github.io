@@ -55,7 +55,7 @@ const Experience = () => {
                     : 'text-gray-400 hover:text-gray-200 hover:bg-gray-900'
                 }`}
               >
-                {exp.position} @ {exp.company}
+                {exp.company}
               </button>
             ))}
           </div>

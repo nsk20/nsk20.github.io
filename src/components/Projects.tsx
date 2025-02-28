@@ -18,13 +18,13 @@ const Projects = () => {
       }
     },
     {
-      title: 'Task Management API',
-      description: 'RESTful API for task management with authentication, task CRUD operations, and team collaboration features.',
+      title: 'GlobalMart E-Commerce Analysis',
+      description: 'Advanced analysis of 100K+ order dataset from Brazilian e-commerce platform.',
       image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-      technologies: ['Node.js', 'Express', 'MongoDB', 'JWT'],
-      category: 'data-engineer',
+      technologies: ['BigQuery', 'SQL', 'Data Modeling', 'RFM Analysis'],
+      category: 'data-analysis',
       links: {
-        github: 'https://github.com',
+        github: 'https://github.com/nsk20/GlobalMart-Ecommerce-Analysis',
         live: null
       }
     },
@@ -73,6 +73,16 @@ const Projects = () => {
             }`}
           >
             Data Science
+          </button>
+          <button
+            onClick={() => setFilter('data-analysis')}
+            className={`px-4 py-2 rounded-md text-sm ${
+              filter === 'data-analysis' 
+                ? 'bg-gray-800 text-white' 
+                : 'text-gray-400 hover:text-gray-200'
+            }`}
+          >
+            Data Analysis
           </button>
           <button
             onClick={() => setFilter('data-engineer')}
