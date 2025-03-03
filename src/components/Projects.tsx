@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: 'FAISSeek-RAG',
       description: 'Retrieval-Augmented Generation system combining Deepseek-r1 LLM with FAISS vector search, enabling document-aware AI responses through a public API.',
-      image: 'https://github.com/nsk20/nsk20.github.io/blob/main/src/assets/rag.jpg',
+      image: 'https://raw.githubusercontent.com/nsk20/nsk20.github.io/refs/heads/main/src/assets/rag.jpg',
       technologies: ['Ollama', 'FAISS', 'Deepseek-r1', 'Ngrok', 'Python', 'Transformers', 'Torch'],
       category: 'ml',
       links: {
