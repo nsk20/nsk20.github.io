@@ -282,7 +282,7 @@ function App() {
                 <Github size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/nalluri-shyam-kumar-96196b183/"
+                href="https://www.linkedin.com/in/shyam-kumar-16575a348/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

@@ -22,9 +22,20 @@ const Projects = () => {
       description: 'Advanced analysis of 100K+ order dataset from Brazilian e-commerce platform.',
       image: 'https://raw.githubusercontent.com/nsk20/nsk20.github.io/refs/heads/main/src/assets/da.jpg',
       technologies: ['BigQuery', 'SQL', 'Data Modeling', 'RFM Analysis'],
-      category: 'data-analysis',
+      category: 'data-science',
       links: {
         github: 'https://github.com/nsk20/GlobalMart-Ecommerce-Analysis',
+        live: null
+      }
+    },
+    {
+      title: 'FAISSeek-RAG',
+      description: 'Retrieval-Augmented Generation system combining Deepseek-r1 LLM with FAISS vector search, enabling document-aware AI responses through a public API.',
+      image: 'https://github.com/nsk20/nsk20.github.io/blob/main/src/assets/rag.jpg',
+      technologies: ['Ollama', 'FAISS', 'Deepseek-r1', 'Ngrok', 'Python', 'Transformers', 'Torch'],
+      category: 'ml',
+      links: {
+        github: 'https://github.com/nsk20/FAISSeek-RAG',
         live: null
       }
     },
@@ -75,14 +86,14 @@ const Projects = () => {
             Data Science
           </button>
           <button
-            onClick={() => setFilter('data-analysis')}
+            onClick={() => setFilter('ml')}
             className={`px-4 py-2 rounded-md text-sm ${
-              filter === 'data-analysis' 
+              filter === 'ml' 
                 ? 'bg-gray-800 text-white' 
                 : 'text-gray-400 hover:text-gray-200'
             }`}
           >
-            Data Analysis
+            Machine Learning
           </button>
           <button
             onClick={() => setFilter('data-engineer')}

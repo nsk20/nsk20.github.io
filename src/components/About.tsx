@@ -40,26 +40,27 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         <div>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            I'm a dedicated data analyst and engineer with a strong foundation in computer science and data science.
-            My journey in tech began with a Bachelor's degree in Computer Science and Information Technology, where
-            I developed a passion for databases and algorithm design. This led me to pursue a Master's in
-            Computer Engineering with a focus on Data Science at San Jose State University.
+            I'm a passionate data engineer and analyst with a robust background in database systems and SQL development. 
+            My journey began with a Bachelor's degree in Computer Science and Information Technology, where I cultivated 
+            expertise in databases, algorithm design, and Linux system administration. Driven by my curiosity for data-driven 
+            solutions, I’m currently pursuing a Master’s in Computer Engineering with a Data Science focus at San Jose State University.
           </p>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            With experience at Accion Labs as both a Data Analyst and Data Engineer, I've honed my skills
-            in automating workflows, optimizing data pipelines, and developing financial models that drive
-            business insights. My work has significantly improved data accuracy, reduced processing times,
-            and enhanced financial planning efficiency.
+            At Action Labs, I worked as an Associate Software Engineer, optimizing database designs for application performance 
+            and automating reporting workflows to improve accuracy. My contributions included resolving over 100 bugs in reporting 
+            systems and collaborating with cross-functional teams to validate metrics and tool performance. Additionally, I completed 
+            a data science simulation with Commonwealth Bank, where I engineered pipelines to anonymize data and extract actionable insights.
+          </p>
+          <p className="text-gray-300 mb-6 leading-relaxed">
+            I specialize in SQL, Python, and cloud technologies like Azure, Snowflake, and Google Big Query to build scalable 
+            data pipelines and ETL workflows. My academic projects, such as the customer churn prediction model using PySpark 
+            and machine learning, highlight my ability to apply advanced analytics to real-world challenges. I also hold certifications 
+            in SQL, cloud platforms, and data engineering, reflecting my commitment to continuous learning.
           </p>
           <p className="text-gray-300 leading-relaxed">
-            I specialize in leveraging tools like Python, PySpark, SQL, and cloud technologies such as AWS
-            and Snowflake to build scalable data solutions. My academic project on customer churn prediction
-            showcases my ability to apply machine learning techniques to solve real-world problems.
-          </p>
-          <p className="text-gray-300 leading-relaxed">
-            Outside of work, I enjoy exploring new technologies and continuously learning through courses
-            and certifications. I'm always eager to take on new challenges and collaborate on
-            innovative projects.
+            Beyond technical work, I thrive on exploring emerging tools and methodologies in data engineering. Whether it’s 
+            diving into new courses or experimenting with cloud-based solutions, I’m always eager to tackle complex data problems 
+            and collaborate on innovative projects that drive meaningful impact.
           </p>
         </div>
 
