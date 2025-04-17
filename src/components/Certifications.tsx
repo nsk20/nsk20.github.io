@@ -10,31 +10,32 @@ const Certifications = () => {
       description: 'Certified as an Associate Data Engineer, demonstrating proficiency in data management and exploratory analysis through various exams and practical assessments.',
       credentialId: 'DEA0011117016817',
       credentialURL: 'https://www.datacamp.com/certificate/DEA0011117016817'
-    },
-    {
-      title: 'Google Professional Cloud Developer',
-      issuer: 'Google Cloud',
-      date: 'August 2023',
-      description: 'Demonstrates ability to build scalable and highly available applications using Google Cloud.',
-      credentialId: 'GCP-PCD-67890',
-      credentialURL: 'https://www.credential.net/example'
-    },
-    {
-      title: 'Meta Frontend Developer Professional Certificate',
-      issuer: 'Meta (Facebook)',
-      date: 'May 2023',
-      description: 'Comprehensive program covering React, JavaScript, and modern frontend development practices.',
-      credentialId: 'META-FE-54321',
-      credentialURL: 'https://www.coursera.org/account/accomplishments/example'
-    },
-    {
-      title: 'Certified Kubernetes Administrator (CKA)',
-      issuer: 'Cloud Native Computing Foundation',
-      date: 'February 2023',
-      description: 'Validates skills, knowledge and competence to perform the responsibilities of Kubernetes administrators.',
-      credentialId: 'CKA-1234-5678-9012',
-      credentialURL: 'https://www.credly.com/badges/example'
     }
+    //,
+    // {
+    //   title: 'Google Professional Cloud Developer',
+    //   issuer: 'Google Cloud',
+    //   date: 'August 2023',
+    //   description: 'Demonstrates ability to build scalable and highly available applications using Google Cloud.',
+    //   credentialId: 'GCP-PCD-67890',
+    //   credentialURL: 'https://www.credential.net/example'
+    // },
+    // {
+    //   title: 'Meta Frontend Developer Professional Certificate',
+    //   issuer: 'Meta (Facebook)',
+    //   date: 'May 2023',
+    //   description: 'Comprehensive program covering React, JavaScript, and modern frontend development practices.',
+    //   credentialId: 'META-FE-54321',
+    //   credentialURL: 'https://www.coursera.org/account/accomplishments/example'
+    // },
+    // {
+    //   title: 'Certified Kubernetes Administrator (CKA)',
+    //   issuer: 'Cloud Native Computing Foundation',
+    //   date: 'February 2023',
+    //   description: 'Validates skills, knowledge and competence to perform the responsibilities of Kubernetes administrators.',
+    //   credentialId: 'CKA-1234-5678-9012',
+    //   credentialURL: 'https://www.credly.com/badges/example'
+    // }
   ];
 
   return (
